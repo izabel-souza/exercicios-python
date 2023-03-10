@@ -1,7 +1,6 @@
 <h1>Python Exercises during vacation</h1>
 
 
-
 <p>Avaliação 1: Você ficou encarregado de criar um programa para validar o número de um novo documento da sua empresa. Como é um documento sensível, algumas regras foram criadas para que seja mais difícil alguém criar um número falso.
 
 Regras:
@@ -14,6 +13,33 @@ Regras:
 
 Seu programa deverá receber como entrada três números de documento, sendo um número por linha. Como saída, para cada número, o programa deverá exibir True caso o respectivo número seja válido de acordo com as regras acima, ou False caso contrário.</p>
 
+
+<p>Avaliação 2: Construa um programa para simular um personagem andando em uma sala escura. O programa recebe como entrada comandos direcionais para o personagem andar. Somente os comandos na tabela abaixo são aceitos pelo programa. Se um comando inválido for dado como entrada, o programa deve exibir a mensagem “E” e terminar.
+
+Entrada	Ação
+D	Personagem anda para a direita.
+E	Personagem anda para a esquerda.
+C	Personagem anda para cima.
+B	Personagem anda para baixo.
+O programa deve se basear no seguinte mapa visto de cima:
+
+INÍCIO	  O	       O	       X
+  X	    PORTA3	   O	     PORTA 1
+  X	     X	    PORTA 2	    X
+ 
+No mapa acima, o personagem começa no piso “INÍCIO”. Os pisos marcados com “O” são pisos onde o personagem pode passar. Os pisos marcados com “X” são pisos onde o personagem não pode passar. Se o personagem chegar em um piso com “X”, deverá ser exibida a mensagem correspondente da tabela abaixo e o programa deverá terminar. Leve em consideração as ações da tabela e os resultados de cada ação ao fazer o seu programa. O programa deve esperar uma entrada caso o piso onde se encontra o personagem seja o INÍCIO ou um piso marcado com “O”.
+
+Lembrem-se que as mensagens de saída do programa devem estar exatamente iguais à tabela e exemplos abaixo. Se você usar x ao invés de X, seu programa não estará correto.
+
+Ação
+
+Ação	Resultado
+Andar para um piso marcado com "X"	Exibir a mensagem "X" e terminar o programa.
+Andar de volta para o piso onde acabou de passar.	Exibir a mensagem "V" e terminar o programa.
+Chegar no piso PORTA 3.	Exibir a mensagem "P3" e terminar o programa.
+Chegar no piso PORTA 2.	Exibir a mensagem "P2" e terminar o programa.
+Chegar no piso PORTA 1.	Exibir a mensagem "P1" e terminar o programa.
+Inserir um comando desconhecido.	Exibir a mensagem "E" e terminar o programa.</p>
 
 
 <p>Avaliação 3: Você foi contratado pela empresa SpaceX para construir um programa que simula o resultado do lançamento de um foguete.
