@@ -14,6 +14,9 @@ Regras:
 Seu programa deverá receber como entrada três números de documento, sendo um número por linha. Como saída, para cada número, o programa deverá exibir True caso o respectivo número seja válido de acordo com as regras acima, ou False caso contrário.</p>
 
 
+
+
+
 <p>Avaliação 2: Construa um programa para simular um personagem andando em uma sala escura. O programa recebe como entrada comandos direcionais para o personagem andar. Somente os comandos na tabela abaixo são aceitos pelo programa. Se um comando inválido for dado como entrada, o programa deve exibir a mensagem “E” e terminar.
 
 Entrada	Ação
@@ -40,6 +43,8 @@ Chegar no piso PORTA 3.	Exibir a mensagem "P3" e terminar o programa.
 Chegar no piso PORTA 2.	Exibir a mensagem "P2" e terminar o programa.
 Chegar no piso PORTA 1.	Exibir a mensagem "P1" e terminar o programa.
 Inserir um comando desconhecido.	Exibir a mensagem "E" e terminar o programa.</p>
+
+
 
 
 <p>Avaliação 3: Você foi contratado pela empresa SpaceX para construir um programa que simula o resultado do lançamento de um foguete.
