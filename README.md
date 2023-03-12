@@ -62,7 +62,6 @@ Você deve considerar no programa que o foguete irá percorrer 1 km por vez (ite
 
  A cada iteração do programa, você deve calcular quanto de combustível ainda resta subtraindo o consumo de combustível da quantidade de combustível atual. Use as regras abaixo para calcular o consumo de combustível a cada iteração.
  
-
 Consumo de combustível
  
 O consumo de combustível depende distância atual do foguete em relação ao solo e da distância alvo.
@@ -75,4 +74,18 @@ Para calcular o consumo, usaremos duas etapas:
 - A segunda etapa é a divisão da distância alvo por soma_pares.</p>
 
 
-<p></p>
+<p>Desenvolva um programa que receba duas entradas. A primeira é um parágrafo de um texto. A segunda é uma lista de palavras.
+
+Entradas:
+- um texto (sem quebra de linhas).
+- uma lista de palavras separadas por espaço.
+
+ 
+
+Um detalhe importante é que tanto o texto como a lista de palavras recebidos como entrada não possuem espaços em branco. Cada espaço em branco foi substituído por um caractere underscore "_". Sua primeira tarefa é substituir todos os caracteres underscores por espaços em branco no texto e na lista de palavras.
+
+Depois, seu programa deve retirar os caracteres de pontuação (ponto, vírgula e ponto e vírgula) do texto. Feito isso, deverá processá-lo e exibir algumas estatísticas sobre o texto processado, conforme lista de saídas abaixo:
+
+Saídas:
+- Quantidade de palavras no texto. Considere que qualquer conjunto de caracteres separados por espaço é uma palavra. A única exceção é quando o texto possui uma única palavra. Nesse caso não existe espaço.
+- Para cada palavra da lista de palavras, exibir a palavra e a quantidade de vezes que ela aparece no texto. </p>
