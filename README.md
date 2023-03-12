@@ -16,7 +16,9 @@
   </p>
 </div>
 
-<div></div>
+<div>
+  <p>---------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+</div>
 
 <div>
   <p>Avaliação 2: Construa um programa para simular um personagem andando em uma sala escura. O programa recebe como entrada comandos direcionais para o personagem andar. Somente os comandos na tabela abaixo são aceitos pelo programa. Se um comando inválido for dado como entrada, o programa deve exibir a mensagem “E” e terminar.
@@ -47,7 +49,9 @@ Chegar no piso PORTA 1.	Exibir a mensagem "P1" e terminar o programa.
 Inserir um comando desconhecido.	Exibir a mensagem "E" e terminar o programa.</p>
 </div>
 
-<div></div>
+<div>
+  <p>---------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+</div>
 
 <div>
   <p>
@@ -79,11 +83,13 @@ Para calcular o consumo, usaremos duas etapas:
   </p>
 </div>
 
-<div></div
+<div>
+  <p>---------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+</div>
   
 <div>
   <p>
-    Desenvolva um programa que receba duas entradas. A primeira é um parágrafo de um texto. A segunda é uma lista de palavras.
+    Avaliação 4:Desenvolva um programa que receba duas entradas. A primeira é um parágrafo de um texto. A segunda é uma lista de palavras.
 
 Entradas:
 - um texto (sem quebra de linhas).
