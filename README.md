@@ -1,4 +1,4 @@
-<h1>Python Exercises during vacation</h1>
+<h1>Exercícios em Python</h1>
 
 <div>
   <p>
